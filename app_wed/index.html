@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Domótica</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- importamos la libreria de firebase cliente para javascript -->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+    <!-- Logica de comunicación con firebase  -->
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/iconandroid-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <nav class="navbar navbar-light sticky-top bg-light nav navbar-expand-lg nav-justified border-danger border-bottom">
+
+  <a class="navbar-brand font-weight-bold" href="#">
+    <img src="images/casa.png" width="60" height="60" class="d-inline-block align-top" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+
+  <a class="nav-item nav-link text-secondary font-weight-bold" href="#">Sala</a>
+  <a class="nav-item nav-link text-secondary font-weight-bold" href="#">Comedor</a>
+  <a class="nav-item nav-link text-secondary font-weight-bold" href="#">Cocina</a>
+  
+</nav>
+<br></br>
+
+  <h1>Sala</h1>
+  <div align="center">
+    <h2>Lampara</h2>
+    <label class="switch">
+      <input class="switch-input" type="checkbox" id="switch" />
+      <span class="switch-label" data-on="On" data-off="Off"></span> 
+      <span class="switch-handle"></span> 
+    </label> 
+    <br></br>
+ <img id="Id_imagen" src="images/focoon.png" class="d-inline-block align-top" alt="">
+
+  </div>
+
+</body>
+</html>
