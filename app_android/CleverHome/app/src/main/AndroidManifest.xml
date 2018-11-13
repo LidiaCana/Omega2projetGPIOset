@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beta.pc.cleverhome">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round1"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".DespertadorActivity" />
+
+        <receiver android:name=".Alarm_Receiver" />
+
+        <service
+            android:name=".RingtonePlayingService"
+            android:enabled="true" />
+
+        <activity android:name=".AlarmaActivity" />
+        <activity android:name=".PuertaActivity" />
+        <activity android:name=".AireActivity" />
+        <activity android:name=".TVActivity" />
+        <activity android:name=".DuchaActivity"></activity>
+    </application>
+
+</manifest>

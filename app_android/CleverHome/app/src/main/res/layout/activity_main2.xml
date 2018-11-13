@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/apartamento1"
+    tools:context="com.beta.pc.cleverhome.Main2Activity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"
+
+        android:layout_width="380dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="371dp"
+        android:layout_height="510dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/icons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="209dp">
+
+            <ImageView
+                android:id="@+id/ID_img1"
+                android:layout_width="81dp"
+                android:layout_height="98dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ID_img0"
+                app:srcCompat="@drawable/foco" />
+
+            <ImageView
+                android:id="@+id/ID_img0"
+                android:layout_width="81dp"
+                android:layout_height="98dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/foco" />
+
+            <ImageView
+                android:id="@+id/ID_img2"
+                android:layout_width="81dp"
+                android:layout_height="99dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ID_img1"
+                app:srcCompat="@drawable/foco" />
+
+            <ImageView
+                android:id="@+id/ID_img3"
+                android:layout_width="81dp"
+                android:layout_height="99dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ID_img2"
+                app:srcCompat="@drawable/foco" />
+
+            <Switch
+                android:id="@+id/ID_habitacion1"
+                android:layout_width="163dp"
+                android:layout_height="26dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/habitacion1"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toStartOf="@+id/ID_img0"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Switch
+                android:id="@+id/ID_habitacion2"
+                android:layout_width="154dp"
+                android:layout_height="21dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="92dp"
+                android:text="@string/habitacion2"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toStartOf="@+id/ID_img1"
+                app:layout_constraintTop_toBottomOf="@+id/ID_habitacion1" />
+
+            <Switch
+                android:id="@+id/ID_habitacion3"
+                android:layout_width="151dp"
+                android:layout_height="31dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginTop="88dp"
+                android:text="@string/habitacion3"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toStartOf="@+id/ID_img2"
+                app:layout_constraintTop_toBottomOf="@+id/ID_habitacion2" />
+
+            <Switch
+                android:id="@+id/ID_habitacion4"
+                android:layout_width="155dp"
+                android:layout_height="37dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="92dp"
+                android:text="@string/habitacion4"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toStartOf="@+id/ID_img3"
+                app:layout_constraintTop_toBottomOf="@+id/ID_habitacion3" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

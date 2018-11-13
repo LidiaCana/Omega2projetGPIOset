@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CleverHome</string>
+    <string name="app_name2">CleverHome</string>
+    <string name="acerca">Acerca de</string>
+    <string name="habitacion1">Sala</string>
+    <string name="habitacion2">Cocina</string>
+    <string name="habitacion3">Comedor</string>
+    <string name="habitacion4">Lavanderia</string>
+    <string name="habitacion5">Cuarto principal</string>
+    <string name="mensaje">Una vez ingrese su contrasena, tendra 2 min para salir</string>
+</resources>

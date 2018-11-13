@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".floatingbtn.MainActivity"
+    android:background="@android:color/background_light"
+    >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:color/background_light"
+        android:iconTint="@android:color/background_light"
+        android:orderInCategory="100"
+        android:title="@string/acerca"
+        app:showAsAction="never" />
+</menu>
