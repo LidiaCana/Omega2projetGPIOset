@@ -8,4 +8,4 @@ El proyecto se encuentra dividido en 3 partes:
 Diagrama de montaje: 
 Ojo: Las entradas y salidas del GPIO son de 3VDC, por lo que no requerimos de resistencias.
 
-Hello
+
